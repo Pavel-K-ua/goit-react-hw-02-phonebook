@@ -11,7 +11,7 @@ root.render(
   // <ThemeProvider theme={theme}>
   <>
     <App />
-    <Global />
+    {/* <Global /> */}
   </>
   /* </ThemeProvider> */
 );

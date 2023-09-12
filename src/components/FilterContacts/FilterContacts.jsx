@@ -5,11 +5,13 @@ import PropTypes from 'prop-types';
 
 export const FilterContacts = ({ takeData, filterValue }) => {
   return (
-    <form action="">
-      <input onChange={takeData} value={filterValue} type="text" />
+    <form>
+      <input onChange={takeData} type="text" />
     </form>
   );
 };
+
+export default FilterContacts;
 
 FilterContacts.propTypes = {
   takeData: PropTypes.func,
